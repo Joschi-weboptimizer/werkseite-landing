@@ -428,9 +428,7 @@
              });
 
              if (res.ok) {
-               form.innerHTML = '<div class="py-8 text-center"><p class="text-2xl mb-2">✓</p><p class="font-semibold
-     text-stone-800">Vielen Dank, ' + name.split(' ')[0] + '!</p><p class="text-stone-500 text-sm mt-1">Ich melde mich
-     innerhalb eines Werktages bei Ihnen.</p></div>';
+               form.innerHTML = '<div class="py-8 text-center"><p class="text-2xl mb-2">✓</p><p class="font-semibold text-stone-800">Vielen Dank, ' + name.split(' ')[0] + '!</p><p class="text-stone-500 text-sm mt-1">Ich melde mich innerhalb eines Werktages bei Ihnen.</p></div>';
              } else {
                throw new Error();
              }
