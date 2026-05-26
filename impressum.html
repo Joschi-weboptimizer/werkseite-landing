@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum — WerkSeite</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50:'#f0f9ff', 100:'#e0f2fe', 500:'#0ea5e9', 600:'#0284c7', 700:'#0369a1', 900:'#0c4a6e' }
+          },
+          fontFamily: { sans: ['Inter','system-ui','sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="font-sans text-stone-800 bg-white antialiased">
+  <div style="position:fixed;top:0;left:0;right:0;z-index:200;background:#0c4a6e;color:rgba(255,255,255,0.85);text-align:center;padding:8px 16px;font-size:0.8rem;font-family:'Inter',sans-serif;letter-spacing:0.02em;">
+    🚧 Diese Seite befindet sich im Aufbau — noch nicht offiziell im Betrieb.
+  </div>
+
+  <nav class="fixed left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-stone-100" style="top:37px;">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="text-xl font-bold text-stone-900">
+          Werk<span class="text-brand-600">Seite</span>
+        </a>
+        <a href="index.html" class="text-sm text-stone-500 hover:text-brand-600 transition-colors">← Zurück zur Startseite</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto">
+
+      <h1 class="text-3xl font-extrabold text-stone-900 mb-8">Impressum</h1>
+
+      <div class="space-y-6 text-stone-700 leading-relaxed">
+
+        <section>
+          <h2 class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Angaben gemäß § 5 TMG</h2>
+          <p>
+            <!-- TODO: Nach Firmengründung ausfüllen -->
+            <strong>[Vollständiger Name]</strong><br />
+            [Straße und Hausnummer]<br />
+            [PLZ] [Stadt]<br />
+            Deutschland
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Kontakt</h2>
+          <p>
+            Telefon: [Telefonnummer]<br />
+            E-Mail: <a href="mailto:hallo@werkseite.app" class="text-brand-600 hover:underline">hallo@werkseite.app</a>
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Verantwortlich für den Inhalt</h2>
+          <p>
+            [Vollständiger Name]<br />
+            [Adresse wie oben]
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Streitschlichtung</h2>
+          <p>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+            <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener" class="text-brand-600 hover:underline">
+              https://ec.europa.eu/consumers/odr/
+            </a>.<br />
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+          </p>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-5 px-4 bg-stone-900 text-stone-500 text-sm">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <span>© 2026 WerkSeite</span>
+      <div class="flex gap-6">
+        <a href="impressum.html" class="hover:text-white transition-colors">Impressum</a>
+        <a href="datenschutz.html" class="hover:text-white transition-colors">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

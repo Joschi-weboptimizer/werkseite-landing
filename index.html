@@ -57,9 +57,16 @@
      <body class="font-sans text-stone-800 bg-white antialiased">
 
        <!-- ═══════════════════════════════════
+            BETA BANNER
+       ═══════════════════════════════════ -->
+       <div style="position:fixed;top:0;left:0;right:0;z-index:200;background:#0c4a6e;color:rgba(255,255,255,0.85);text-align:center;padding:8px 16px;font-size:0.8rem;font-family:'Inter',sans-serif;letter-spacing:0.02em;">
+         🚧 Diese Seite befindet sich im Aufbau — noch nicht offiziell im Betrieb.
+       </div>
+
+       <!-- ═══════════════════════════════════
             NAVIGATION
        ═══════════════════════════════════ -->
-       <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-stone-100">
+       <nav class="fixed left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-stone-100" style="top:37px;">
          <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
            <div class="flex items-center justify-between h-16">
              <a href="#" class="text-xl font-bold text-stone-900">
@@ -67,6 +74,7 @@
              </a>
              <div class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-500">
                <a href="#wie" class="hover:text-brand-600 transition-colors">Wie es funktioniert</a>
+               <a href="#preise" class="hover:text-brand-600 transition-colors">Preise</a>
                <a href="#demo" class="hover:text-brand-600 transition-colors">Demo anfordern</a>
                <a href="#kontakt" class="hover:text-brand-600 transition-colors">Kontakt</a>
              </div>
@@ -85,7 +93,7 @@
        <!-- ═══════════════════════════════════
             HERO
        ═══════════════════════════════════ -->
-       <section class="gradient-hero pt-32 pb-28 px-4 sm:px-6 lg:px-8">
+       <section class="gradient-hero pt-40 pb-28 px-4 sm:px-6 lg:px-8">
          <div class="max-w-4xl mx-auto text-center">
 
            <div class="inline-flex items-center gap-2 bg-white/15 text-white/90 text-sm font-medium px-4 py-1.5 rounded-full
@@ -254,6 +262,142 @@
        </section>
 
 
+       <!-- ═══════════════════════════════════
+            PREISE
+       ═══════════════════════════════════ -->
+       <section id="preise" class="py-20 px-4 sm:px-6 lg:px-8 bg-stone-50">
+         <div class="max-w-5xl mx-auto">
+
+           <div class="text-center mb-14">
+             <p class="text-brand-600 font-semibold text-sm uppercase tracking-widest mb-3">Transparent &amp; fair</p>
+             <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 mb-4">
+               Klare Preise. Keine Überraschungen.
+             </h2>
+             <p class="text-stone-500 text-base max-w-xl mx-auto">
+               Einmaliger Festpreis — kein Abo, keine versteckten Kosten.
+             </p>
+           </div>
+
+           <div class="grid md:grid-cols-3 gap-8 items-stretch">
+
+             <!-- Basis -->
+             <div class="bg-white rounded-2xl border border-stone-200 p-8 flex flex-col shadow-sm">
+               <div class="mb-6">
+                 <p class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Basis</p>
+                 <div class="flex items-end gap-1 mb-3">
+                   <span class="text-4xl font-extrabold text-stone-900">349 €</span>
+                   <span class="text-stone-400 text-sm mb-1.5">einmalig</span>
+                 </div>
+                 <p class="text-stone-500 text-sm leading-relaxed">Der perfekte Einstieg — alles was ein Betrieb zum Start braucht.</p>
+               </div>
+               <ul class="space-y-3 mb-8 flex-1">
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Startseite
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Über uns
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Leistungen
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Kontakt
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Mobiloptimiert &amp; modern
+                 </li>
+               </ul>
+               <a href="#demo" class="block text-center bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-sm px-6 py-3 rounded-xl transition-colors">
+                 Demo anfordern
+               </a>
+             </div>
+
+             <!-- Pro — hervorgehoben -->
+             <div class="bg-brand-600 rounded-2xl p-8 flex flex-col shadow-xl relative">
+               <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
+                 <span class="bg-amber-400 text-amber-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Empfohlen</span>
+               </div>
+               <div class="mb-6">
+                 <p class="text-sm font-semibold text-brand-200 uppercase tracking-widest mb-2">Pro</p>
+                 <div class="flex items-end gap-1 mb-3">
+                   <span class="text-4xl font-extrabold text-white">379 €</span>
+                   <span class="text-brand-200 text-sm mb-1.5">einmalig</span>
+                 </div>
+                 <p class="text-brand-100 text-sm leading-relaxed">Basis plus ein Baustein nach Wahl — ideal für Betriebe mit besonderen Anforderungen.</p>
+               </div>
+               <ul class="space-y-3 mb-4 flex-1">
+                 <li class="flex items-start gap-3 text-sm text-white">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-200 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Alles aus Basis
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-white">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-200 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   <span>1 Baustein nach Wahl <span class="text-brand-200">(Galerie, FAQ, Team oder Karriere)</span></span>
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-white">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-200 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Mobiloptimiert &amp; modern
+                 </li>
+               </ul>
+               <p class="text-brand-200 text-xs mb-6">Weitere Bausteine jederzeit dazu buchbar — je 49 €.</p>
+               <a href="#demo" class="block text-center bg-white hover:bg-brand-50 text-brand-700 font-bold text-sm px-6 py-3 rounded-xl transition-colors shadow-md">
+                 Demo anfordern
+               </a>
+             </div>
+
+             <!-- Complete -->
+             <div class="bg-white rounded-2xl border border-stone-200 p-8 flex flex-col shadow-sm">
+               <div class="mb-6">
+                 <p class="text-sm font-semibold text-stone-400 uppercase tracking-widest mb-2">Complete</p>
+                 <div class="flex items-end gap-1 mb-3">
+                   <span class="text-4xl font-extrabold text-stone-900">449 €</span>
+                   <span class="text-stone-400 text-sm mb-1.5">einmalig</span>
+                 </div>
+                 <p class="text-stone-500 text-sm leading-relaxed">Das Rundum-Paket — alle Bausteine inklusive, kein Nachrechnen.</p>
+               </div>
+               <ul class="space-y-3 mb-8 flex-1">
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Alles aus Basis
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Galerie
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   FAQ
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Team
+                 </li>
+                 <li class="flex items-start gap-3 text-sm text-stone-700">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-brand-500 mt-0.5 shrink-0"><path d="M20 6 9 17l-5-5"/></svg>
+                   Karriere
+                 </li>
+               </ul>
+               <a href="#demo" class="block text-center bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-sm px-6 py-3 rounded-xl transition-colors">
+                 Demo anfordern
+               </a>
+             </div>
+
+           </div>
+
+           <!-- Alle Preise einmalig -->
+           <p class="text-center text-stone-400 text-sm mt-8">
+             Alle Preise einmalig — kein Abo, keine Folgekosten. Hosting buchen Sie selbst (ca. 3–5 €/Monat).
+           </p>
+
+         </div>
+       </section>
+
+
        <section id="demo" class="gradient-form dot-pattern py-16 px-4 sm:px-6 lg:px-8">
          <div class="max-w-2xl mx-auto">
 
@@ -338,11 +482,70 @@
      9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"/><path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"/><path
      d="M12 3v6"/></svg>
                      </div>
-                     <input type="text" id="branche" name="branche" placeholder="z. B. Dachdecker, Restaurant, Physiotherapie
-     …"
+                     <input type="text" id="branche" name="branche" placeholder="z. B. Dachdecker, Restaurant, Physiotherapie …"
                        class="w-full pl-10 pr-4 py-3 border border-stone-200 rounded-xl text-stone-900 placeholder-stone-400
      focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all text-sm" />
                    </div>
+                 </div>
+
+                 <!-- Paket wählen -->
+                 <div>
+                   <label class="block text-sm font-semibold text-stone-700 mb-2">
+                     Welches Paket interessiert Sie? <span class="text-stone-400 font-normal">(optional)</span>
+                   </label>
+                   <div class="grid grid-cols-2 gap-2">
+                     <label class="paket-option flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="paket" value="Basis (349 €)" class="accent-brand-600" onchange="updateBausteine()" />
+                       <span class="text-sm text-stone-700"><span class="font-semibold">Basis</span> — 349 €</span>
+                     </label>
+                     <label class="paket-option flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="paket" value="Pro (379 €)" class="accent-brand-600" onchange="updateBausteine()" />
+                       <span class="text-sm text-stone-700"><span class="font-semibold">Pro</span> — 379 €</span>
+                     </label>
+                     <label class="paket-option flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="paket" value="Complete (449 €)" class="accent-brand-600" onchange="updateBausteine()" />
+                       <span class="text-sm text-stone-700"><span class="font-semibold">Complete</span> — 449 €</span>
+                     </label>
+                     <label class="paket-option flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="paket" value="Noch nicht sicher" class="accent-brand-600" onchange="updateBausteine()" />
+                       <span class="text-sm text-stone-500">Noch nicht sicher</span>
+                     </label>
+                   </div>
+                 </div>
+
+                 <!-- Baustein wählen — nur bei Pro sichtbar -->
+                 <div id="bausteine-section" class="hidden">
+                   <label class="block text-sm font-semibold text-stone-700 mb-2">
+                     Welchen Baustein möchten Sie?
+                   </label>
+                   <div class="grid grid-cols-2 gap-2">
+                     <label class="flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="baustein" value="Galerie" class="accent-brand-600" />
+                       <span class="text-sm text-stone-700">Galerie</span>
+                     </label>
+                     <label class="flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="baustein" value="FAQ" class="accent-brand-600" />
+                       <span class="text-sm text-stone-700">FAQ</span>
+                     </label>
+                     <label class="flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="baustein" value="Team" class="accent-brand-600" />
+                       <span class="text-sm text-stone-700">Team</span>
+                     </label>
+                     <label class="flex items-center gap-3 border border-stone-200 rounded-xl px-4 py-3 cursor-pointer hover:border-brand-400 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                       <input type="radio" name="baustein" value="Karriere" class="accent-brand-600" />
+                       <span class="text-sm text-stone-700">Karriere</span>
+                     </label>
+                   </div>
+                 </div>
+
+                 <!-- Freitext -->
+                 <div>
+                   <label for="nachricht" class="block text-sm font-semibold text-stone-700 mb-1.5">
+                     Ihre Nachricht <span class="text-stone-400 font-normal">(optional)</span>
+                   </label>
+                   <textarea id="nachricht" name="nachricht" rows="3" placeholder="Fragen, Wünsche oder Hinweise …"
+                     class="w-full px-4 py-3 border border-stone-200 rounded-xl text-stone-900 placeholder-stone-400
+     focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all text-sm resize-none"></textarea>
                  </div>
 
                  <button type="submit"
@@ -421,8 +624,8 @@
          <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
            <span>© 2026 WerkSeite</span>
            <div class="flex gap-6">
-             <a href="#" class="hover:text-white transition-colors">Impressum</a>
-             <a href="#" class="hover:text-white transition-colors">Datenschutz</a>
+             <a href="impressum.html" class="hover:text-white transition-colors">Impressum</a>
+             <a href="datenschutz.html" class="hover:text-white transition-colors">Datenschutz</a>
            </div>
          </div>
        </footer>
@@ -437,14 +640,28 @@
 
 
        <script>
+         function updateBausteine() {
+           const paket = document.querySelector('input[name="paket"]:checked')?.value ?? '';
+           const section = document.getElementById('bausteine-section');
+           if (paket === 'Pro (379 €)') {
+             section.classList.remove('hidden');
+           } else {
+             section.classList.add('hidden');
+             document.querySelectorAll('input[name="baustein"]').forEach(el => el.checked = false);
+           }
+         }
+
          async function handleSubmit(e) {
            e.preventDefault();
            const form = e.target;
            const btn = form.querySelector('button[type="submit"]');
-           const website = document.getElementById('website').value;
-           const name    = document.getElementById('name').value;
-           const email   = document.getElementById('email').value;
-           const branche = document.getElementById('branche').value;
+           const website  = document.getElementById('website').value;
+           const name     = document.getElementById('name').value;
+           const email    = document.getElementById('email').value;
+           const branche  = document.getElementById('branche').value;
+           const paket    = document.querySelector('input[name="paket"]:checked')?.value ?? '';
+           const baustein = document.querySelector('input[name="baustein"]:checked')?.value ?? '';
+           const nachricht = document.getElementById('nachricht').value;
 
            btn.disabled = true;
            btn.textContent = 'Wird gesendet…';
@@ -453,7 +670,7 @@
              const res = await fetch('https://formspree.io/f/mgoqyvzd', {
                method: 'POST',
                headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
-               body: JSON.stringify({ website, name, email, branche }),
+               body: JSON.stringify({ website, name, email, branche, paket, baustein, nachricht }),
              });
 
              if (res.ok) {
