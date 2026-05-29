@@ -34,8 +34,8 @@
          html { scroll-behavior: smooth; }
 
          .gradient-hero {
-           background: linear-gradient(135deg, rgba(12,74,110,0.93) 0%, rgba(3,105,161,0.90) 55%, rgba(14,165,233,0.85) 100%),
-             url('https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=1600&q=80') center/cover no-repeat;
+           background: linear-gradient(135deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.42) 55%, rgba(0,0,0,0.38) 100%),
+             url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80') center/cover no-repeat;
          }
 
          .gradient-form {
@@ -213,59 +213,42 @@
              </h2>
            </div>
 
-           <div class="grid md:grid-cols-4 gap-8">
+           <div class="relative grid md:grid-cols-4 gap-0">
+
+             <!-- Verbindungslinie (nur Desktop) -->
+             <div class="hidden md:block absolute top-8 left-[12.5%] right-[12.5%] h-px bg-brand-200 z-0"></div>
 
              <!-- Schritt 1 -->
-             <div class="text-center">
-               <div class="relative inline-flex mb-6">
-                 <div class="w-16 h-16 rounded-2xl bg-brand-600 text-white flex items-center justify-center shadow-lg">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                 </div>
-                 <span class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brand-100 text-brand-700 text-xs font-bold flex items-center justify-center shadow-sm">1</span>
-               </div>
-               <h3 class="text-lg font-bold text-stone-900 mb-2">Wir analysieren</h3>
+             <div class="text-center px-4 pb-10 md:pb-0 relative z-10">
+               <div class="text-5xl font-extrabold text-brand-500 leading-none mb-4">1</div>
+               <h3 class="text-base font-bold text-stone-900 mb-2">Wir analysieren</h3>
                <p class="text-stone-500 text-sm leading-relaxed">
                  Wir schauen uns Ihre aktuelle Website an und finden konkret, was Neukunden kostet.
                </p>
              </div>
 
              <!-- Schritt 2 -->
-             <div class="text-center">
-               <div class="relative inline-flex mb-6">
-                 <div class="w-16 h-16 rounded-2xl bg-brand-600 text-white flex items-center justify-center shadow-lg">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
-                 </div>
-                 <span class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brand-100 text-brand-700 text-xs font-bold flex items-center justify-center shadow-sm">2</span>
-               </div>
-               <h3 class="text-lg font-bold text-stone-900 mb-2">Wir bauen</h3>
+             <div class="text-center px-4 pb-10 md:pb-0 relative z-10">
+               <div class="text-5xl font-extrabold text-brand-500 leading-none mb-4">2</div>
+               <h3 class="text-base font-bold text-stone-900 mb-2">Wir bauen</h3>
                <p class="text-stone-500 text-sm leading-relaxed">
                  Ihre neue Website entsteht — mit Ihrem Logo, Ihren Leistungen, mobiloptimiert. Kostenlos, bevor Sie zugesagt haben.
                </p>
              </div>
 
              <!-- Schritt 3 -->
-             <div class="text-center">
-               <div class="relative inline-flex mb-6">
-                 <div class="w-16 h-16 rounded-2xl bg-brand-600 text-white flex items-center justify-center shadow-lg">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-                 </div>
-                 <span class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brand-100 text-brand-700 text-xs font-bold flex items-center justify-center shadow-sm">3</span>
-               </div>
-               <h3 class="text-lg font-bold text-stone-900 mb-2">Sie sehen</h3>
+             <div class="text-center px-4 pb-10 md:pb-0 relative z-10">
+               <div class="text-5xl font-extrabold text-brand-500 leading-none mb-4">3</div>
+               <h3 class="text-base font-bold text-stone-900 mb-2">Sie sehen</h3>
                <p class="text-stone-500 text-sm leading-relaxed">
                  Sie sehen die fertige Website — live, klickbar, auf Ihrem Handy. Erst dann entscheiden Sie.
                </p>
              </div>
 
              <!-- Schritt 4 -->
-             <div class="text-center">
-               <div class="relative inline-flex mb-6">
-                 <div class="w-16 h-16 rounded-2xl bg-brand-600 text-white flex items-center justify-center shadow-lg">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
-                 </div>
-                 <span class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-brand-100 text-brand-700 text-xs font-bold flex items-center justify-center shadow-sm">4</span>
-               </div>
-               <h3 class="text-lg font-bold text-stone-900 mb-2">Sie gehen online</h3>
+             <div class="text-center px-4 relative z-10">
+               <div class="text-5xl font-extrabold text-brand-500 leading-none mb-4">4</div>
+               <h3 class="text-base font-bold text-stone-900 mb-2">Sie gehen online</h3>
                <p class="text-stone-500 text-sm leading-relaxed">
                  Gefällt der Entwurf? Wir passen mit Ihren Fotos an und schalten live. Festpreis ab 349 €, einmalig.
                </p>
@@ -421,9 +404,9 @@
          <div class="max-w-2xl mx-auto">
 
            <!-- Header -->
-           <div class="text-center mb-8">
-             <p class="text-blue-300 font-semibold text-sm uppercase tracking-widest mb-3">Kostenlos &amp; unverbindlich</p>
-             <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">
+           <div class="text-center mb-6">
+             <p class="text-blue-300 font-semibold text-sm uppercase tracking-widest mb-2">Kostenlos &amp; unverbindlich</p>
+             <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-2">
                Ihre neue Website — kostenlos ansehen.
              </h2>
              <p class="text-white/65 text-base">
